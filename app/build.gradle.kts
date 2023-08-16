@@ -21,7 +21,7 @@ android {
     namespace = "eu.kanade.tachiyomi"
 
     defaultConfig {
-        applicationId = "eu.kanade.tachiyomi"
+        applicationId = "nyc.nofear.foldiyomi"
 
         versionCode = 104
         versionName = "0.14.6"
