@@ -1,0 +1,33 @@
+Notes 2023-08-16
+
+Tachiyomi
+
+- Tachiyomi database containing library information
+
+- Encrypt and upload it to cloud
+   - Google API gives us a lot of legroom
+
+- Download it to other devices
+
+- Checksums compare library state
+
+- It's easy to tell when there are changes
+
+- Detect active and inactive reading, and only changes when the app is inactive
+
+- Immediate changes: Items added or removed from libary
+
+- Manual change alternative options
+  - Multiple settings for when to autosync
+
+- Pre-close cleanups:
+
+   - Identify if it's possible to interrupt a shutdown to cleanup.
+
+INVESTIGATE: Tachiyomi enhanced sync
+
+Multimedia readers: Could connect to databases like MAL and correspond adaptations of the manga you're reading
+
+Potential users: 16.6% of tachiyomi userbase. 500k?
+
+PRIORITY: Figure out how the library backup is stored and changes, that's an already existing infrastrucure that can be used to simplify the sync.
